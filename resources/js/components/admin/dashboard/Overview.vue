@@ -98,7 +98,7 @@
                                 {{ $t("income") }}
                             </div>
                             <div class="font-weight-bold fz-20">
-                                ${{ overview.total_income }}
+                                {{ overview.total_income }}
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                                 {{ $t("expense") }}
                             </div>
                             <div class="font-weight-bold fz-20">
-                                ${{ overview.total_expense }}
+                                {{ overview.total_expense }}
                             </div>
                         </div>
                     </div>
